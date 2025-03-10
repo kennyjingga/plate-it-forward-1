@@ -1,0 +1,189 @@
+{{-- <div class="cartye bg-DefaultWhite  flex-col h-[100vh] fixed items-center right-0 justify-between  w-[28%] hidden">
+    <div class="h-[10vh]"></div>
+    <div class="headercart sticky bg-DefaultWhite w-full  flex flex-col h-[15vh] border-b-4 border-[#00615F] ">
+        <div class="backtolist w-full  flex  border-b-2 border-[#AFAFAF]  pl-5 t h-[40%]">
+            <button class="text-[35px]  text-bold bg-transparent " onclick="backbuttonmenu()">X</button>
+        </div>
+        <div class="carttitle w-full flex flex-col justify-center items-center  h-[60%] bg-DefaultWhite">
+            <h1>CART</h1>
+            <h2>McDonald's, Sentul City</h2>
+        </div>
+
+    </div>
+
+    <div
+        class="cartmid w-full  items-center flex h-[65vh] flex-col gap-[2vh]  overflow-y-auto overflow-x-hidden scrollbar-none ">
+        <div class="h-[1vh]"></div>
+
+        <div class="cartmenulist flex rounded-[10px]  w-[90%] gap-[10px] items-center  h-[130px] justify-center p-2">
+            <div
+                class="quantity w-[10%] inline-flex flex-col h-[100px] border-none rounded-[100px] justify-center items-center  bg-DefaultGreen">
+                <button class="h-[35px] bg-transparent text-white" onclick="increment()">+</button>
+                <input class="w-[100%] text-white text-center border-none pointer-events-none h-[30px] bg-transparent"
+                    type="text" id="number" value="1" readonly>
+                <button class="h-[35px] bg-transparent text-white" onclick="decrement()">−</button>
+            </div>
+            <div class="picturemenu w-[100px] h-[100px] bg-black border-DefaultGreen border-[1px] rounded-[10px]">
+                <img class="h-full w-full rounded-[10px]"
+                    src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21c4f66a-e600-44f5-bae2-3488e17d979d_TPO-111226_1.jpg?auto=format"
+                    alt="PaNas 1 Ayam McD Gulai Spicy">
+            </div>
+            <div class="descmenu flex flex-col justify-between   h-full">
+                <h1>PaNas 1 Ayam McD Gulai Spicy</h1>
+                <h2>Rp42,500</h2>
+                <p>Tidak pakai keju, tidak pakai acar</p>
+            </div>
+        </div>
+
+        <div class="cartmenulist flex rounded-[10px]  w-[90%] gap-[10px] items-center  h-[130px] justify-center p-2">
+            <div
+                class="quantity w-[10%] inline-flex flex-col h-[100px] border-none rounded-[100px] justify-center items-center  bg-DefaultGreen">
+                <button class="h-[35px] bg-transparent text-white" onclick="increment()">+</button>
+                <input class="w-[100%] text-white text-center border-none pointer-events-none h-[30px] bg-transparent"
+                    type="text" id="number" value="1" readonly>
+                <button class="h-[35px] bg-transparent text-white" onclick="decrement()">−</button>
+            </div>
+            <div class="picturemenu w-[100px] h-[100px] bg-black border-DefaultGreen border-[1px] rounded-[10px]">
+                <img class="h-full w-full rounded-[10px]"
+                    src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21c4f66a-e600-44f5-bae2-3488e17d979d_TPO-111226_1.jpg?auto=format"
+                    alt="PaNas 1 Ayam McD Gulai Spicy">
+            </div>
+            <div class="descmenu flex flex-col justify-between   h-full">
+                <h1>PaNas 1 Ayam McD Gulai Spicy</h1>
+                <h2>Rp42,500</h2>
+                <p>Pakai keju, tidak pakai acar</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div
+        class="totalmenu bg-DefaultWhite w-full h-[15vh] flex flex-col items-center pt-[2vh] border-t-4 border-DefaultGreen">
+        <div class="totallist w-[90%]  flex justify-between">
+            <h1 class="font-bold">TOTAL</h1>
+            <h1>Rp85.000,00</h1>
+        </div>
+        <a href="/payment"><button class="bg-DefaultGreen h-[3vh] w-[200px] text-white">PAYMENT</button></a>
+    </div>
+
+</div> --}}
+
+
+
+<div
+                class=" w-full  items-center flex h-[65vh] flex-col gap-[2vh] overflow-y-auto overflow-x-hidden scrollbar-none ">
+                <div class=" w-full border-b-8 border-gray-400 items-end">
+                    <div class="flex gap-1 pt-2 pl-5">
+                        <h1 class="text-[12px] font-bold">Add-On.</h1>
+                        <h1 class="text-[10px] text-gray-700">Pick 1</h1>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="flex pl-4 w-[98%] pr-5 justify-between items-center border-b-2  pb-2 pt-2 border-gray-500">
+                            <input class="w-[15px]" type="radio"></input>
+                            <h1 class="text-[13px] flex justify-center w-[70%] ">2px Korean Soy Garlic Wings</h1>
+                            <h1 class="text-[13px] w-[22%]  flex justify-end">Rp 16.500,00</h1>
+                        </div>
+                        <div class="flex pl-4 w-[98%] pr-5 justify-between items-center pb-2 pt-2  border-gray-500">
+                            <input class="w-[15px]" type="radio"></input>
+                            <h1 class="text-[13px] flex justify-center w-[70%]  ">2px Korean Soy Garlic Wings</h1>
+                            <h1 class="text-[13px] w-[22%]  flex justify-end">Rp 0</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specins w-full p-5 flex flex-col  gap-1 ">
+                    <div class="flex gap-1 items-center">
+                        <h1 class="text-[12px] font-bold ">Special Intructions</h1>
+                        <h2 class="text-[8px] text-gray-500"> Not required</h2>
+                    </div>
+                    <input class="inputdesc text-black h-[3vh] p-1 rounded-md text-[10px]" type="text"
+                        value="Ex: Thigh, pleasee...." ">
+                </div>
+
+            </div>
+
+
+document.addEventListener("DOMContentLoaded", function() {
+        const radioButtons = document.querySelectorAll("input[type='radio']");
+
+        radioButtons.forEach(radio => {
+            radio.addEventListener("click", function(event) {
+                if (this.checked) {
+                    if (this.getAttribute("data-checked") === "true") {
+                        this.checked = false;
+                        this.removeAttribute("data-checked");
+                    } else {
+                        this.setAttribute("data-checked", "true");
+                    }
+                }
+            });
+        });
+    });
+
+
+
+<!-- desc part -->
+        <div class="desc bg-DefaultWhite flex-col h-[100vh] fixed items-center right-0 justify-between  hidden w-[28%]">
+            <div class="h-[10vh]"></div>
+            <div class="  bg-DefaultWhite w-full  flex flex-col h-[20vh] gap-[1vh] border-b-2 border-[#00615F] ">
+
+                <div class=" w-full  flex bg-DefaultWhite  border-b-2 border-[#AFAFAF]  pl-5 t h-[30%]">
+                    <button class="text-[35px]  text-bold bg-transparent " onclick="backbuttonmenudesc()">X</button>
+                </div>
+
+                <div class=" w-full flex  justify-center items-center  gap-[5px] h-[60%] bg-DefaultWhite">
+                    <img class="h-full rounded-lg border-DefaultGreen border-2"
+                        src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21c4f66a-e600-44f5-bae2-3488e17d979d_TPO-111226_1.jpg?auto=format"
+                        alt="PaNas 1 Ayam McD Gulai Spicy" alt="">
+                    <h2>Panas 1 Ayam MCD Gulai Spicy</h2>
+                </div>
+
+            </div>
+            <div
+                class=" w-full  items-center flex h-[65vh] flex-col gap-[2vh] overflow-y-auto overflow-x-hidden scrollbar-none ">
+                <div class=" w-full border-b-8 border-gray-400 items-end">
+                    <div class="flex gap-1 pt-2 pl-5">
+                        <h1 class="text-[12px] font-bold">Add-On.</h1>
+                        <h1 class="text-[10px] text-gray-700">Pick 1</h1>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="flex pl-4 w-[98%] pr-5 justify-between items-center border-b-2  pb-2 pt-2 border-gray-500">
+                            <input class="w-[15px]" type="radio"></input>
+                            <h1 class="text-[13px] flex justify-center w-[70%] ">2px Korean Soy Garlic Wings</h1>
+                            <h1 class="text-[13px] w-[22%]  flex justify-end">Rp 16.500,00</h1>
+                        </div>
+                        <div class="flex pl-4 w-[98%] pr-5 justify-between items-center pb-2 pt-2  border-gray-500">
+                            <input class="w-[15px]" type="radio"></input>
+                            <h1 class="text-[13px] flex justify-center w-[70%]  ">2px Korean Soy Garlic Wings</h1>
+                            <h1 class="text-[13px] w-[22%]  flex justify-end">Rp 0</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specins w-full p-5 flex flex-col  gap-1 ">
+                    <div class="flex gap-1 items-center">
+                        <h1 class="text-[12px] font-bold ">Special Intructions</h1>
+                        <h2 class="text-[8px] text-gray-500"> Not required</h2>
+                    </div>
+                    <input class="inputdesc text-black h-[3vh] p-1 rounded-md text-[10px]" type="text"
+                        value="Ex: Thigh, pleasee...." ">
+         </div>
+
+         </div>
+
+        
+
+         <div class="totalmenu bg-DefaultWhite w-full h-[15vh] flex flex-col items-center pt-[2vh] border-t-4 border-DefaultGreen">
+             <div class="totallist w-[90%]  flex justify-between">
+                 <h1 class="font-bold ">TOTAL</h1>
+                 <h1>Rp42.000,00</h1>
+             </div>
+             <button class="bg-DefaultGreen h-[3vh] w-[200px] text-white rounded-md">ADD TO CART</button>
+         </div>
+        </div>
+
+
+
+        

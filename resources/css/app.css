@@ -1,0 +1,74 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ #menu {
+        transition: all 0.3s ease-in-out;
+    }
+
+    @font-face {
+        font-family: 'GothamBold';
+        src: url('/public/fonts/gotham-htf-bold.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonBlackItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_black_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonBlack';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_black-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonBoldItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_bold_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonBold';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_bold-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonLightItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_light_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonLight';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_light-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonMediumItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonMedium';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_medium-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonRegularItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_regular_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonRegular';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonThinItalic';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_thin_italic-BF64a625c9.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'BrandonThin';
+        src: url('/public/fonts/HvDTrial_Brandon_Grotesque_thin-BF64a625c9.otf') format('opentype');
+    }
+    
